@@ -53,7 +53,7 @@ public class FizzBuzzBang {
 		
 		for(int i = 1; i<101; i++){
 			
-			if(FizzBuzzBang(i, 20) == 0){
+			if(FizzBuzzBang(i, 21) == 0){
 				System.out.println(i + ": FizzBuzzBang.");
 				countFizzBuzzBang++;
 			}
