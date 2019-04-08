@@ -78,6 +78,7 @@ public class FizzBuzzBang {
 		
 		System.out.println();
 		System.out.println("         Totals");
+		System.out.println("         ------");
 		System.out.println("        Fizz: " + countFizz);
 		System.out.println("        Buzz: " + countBuzz);
 		System.out.println("        Bang: " + countBang);
