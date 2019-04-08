@@ -1,0 +1,91 @@
+package JavaTests;
+
+public class FizzBuzzBang {
+	static int countFizz = 0;
+	static int countBuzz = 0;
+	static int countBang = 0;
+	static int countFizzBuzz = 0;
+	static int countFizzBuzzBang = 0;
+	
+	public int getCountFizz() {
+		return countFizz;
+	}
+
+	public int getCountBuzz() {
+		return countBuzz;
+	}
+
+	public int getCountBang() {
+		return countBang;
+	}
+
+	public int getCountFizzBuzz() {
+		return countFizzBuzz;
+	}
+
+	public int getCountFizzBuzzBang() {
+		return countFizzBuzzBang;
+	}
+
+	public void setCountFizz(int countFizz) {
+		this.countFizz = countFizz;
+	}
+
+	public void setCountBuzz(int countBuzz) {
+		this.countBuzz = countBuzz;
+	}
+
+	public void setCountBang(int countBang) {
+		this.countBang = countBang;
+	}
+
+	public void setCountFizzBuzz(int countFizzBuzz) {
+		this.countFizzBuzz = countFizzBuzz;
+	}
+
+	public void setCountFizzBuzzBang(int countFizzBuzzBang) {
+		this.countFizzBuzzBang = countFizzBuzzBang;
+	}
+
+	public static void main(String[] args) {
+		
+		
+		
+		for(int i = 1; i<101; i++){
+			
+			if(FizzBuzzBang(i, 20) == 0){
+				System.out.println(i + ": FizzBuzzBang.");
+				countFizzBuzzBang++;
+			}
+			if(FizzBuzzBang(i, 15) == 0){
+				System.out.println(i + ": FizzBuzz.");
+				countFizzBuzz++;
+			}
+			else if(FizzBuzzBang(i, 3) == 0){
+				System.out.println(i + ": Fizz.");
+				countFizz++;
+			}
+			else if(FizzBuzzBang(i, 5) == 0){
+				System.out.println(i + ": Buzz.");
+				countBuzz++;
+			}
+			else if(FizzBuzzBang(i, 4) == 0) {
+				System.out.println(i + ": Bang");
+				countBang++;
+			}
+			
+		}
+		
+		System.out.println();
+		System.out.println("Total Fizz: " + countFizz);
+		System.out.println("Total Buzz: " + countBuzz);
+		System.out.println("Total Bang: " + countBang);
+		System.out.println("Total FizzBuzz: " + countFizzBuzz);
+		System.out.println("Total FizzBuzzBang: " + countFizzBuzzBang);
+	}
+	
+	static public int FizzBuzzBang(int a, int b){
+		return a%b;
+	}
+
+}
