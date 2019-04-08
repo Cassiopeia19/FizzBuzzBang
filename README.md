@@ -7,4 +7,4 @@ it is divisible by 15 = "FizzBuzz",
 it is divisible by 21 = "FizzBuzzBang".  
 It will also print out the number associated with the word, so that you can see if the calculation is correct.
 
-This also tallys the counts of each, just to give the statistics.  The count variables are static field variables.
+This also tallys the counts of each, just to give the statistics.  The count variables are static field variables that have each been initialized as '0'.
