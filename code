@@ -77,11 +77,12 @@ public class FizzBuzzBang {
 		}
 		
 		System.out.println();
-		System.out.println("Total Fizz: " + countFizz);
-		System.out.println("Total Buzz: " + countBuzz);
-		System.out.println("Total Bang: " + countBang);
-		System.out.println("Total FizzBuzz: " + countFizzBuzz);
-		System.out.println("Total FizzBuzzBang: " + countFizzBuzzBang);
+		System.out.println("         Totals");
+		System.out.println("        Fizz: " + countFizz);
+		System.out.println("        Buzz: " + countBuzz);
+		System.out.println("        Bang: " + countBang);
+		System.out.println("    FizzBuzz: " + countFizzBuzz);
+		System.out.println("FizzBuzzBang: " + countFizzBuzzBang);
 	}
 	
 	static public int FizzBuzzBang(int a, int b){
