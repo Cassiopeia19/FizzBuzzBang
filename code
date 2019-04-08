@@ -49,7 +49,18 @@ public class FizzBuzzBang {
 
 	public static void main(String[] args) {
 		
-		
+		System.out.println("Welcome to FizzBuzzBang!");
+		System.out.println();
+		System.out.println("This program will take the numbers 1 thru 100.");
+		System.out.println("It will print out 'Fizz', if the number is divisible by '3'.");
+		System.out.println("It will print out 'Buzz', if the number is divisible by '5'.");
+		System.out.println("It will print out 'Bang', if the number is divisible by '7'");
+		System.out.println("It will print out 'FizzBuzz', if the number is divisible by '15'.");
+		System.out.println("It will print out 'FizzBuzzBang', if the number is divisible by '21'.");
+		System.out.println("Finally, it will tally the counts for all.");
+		System.out.println();
+		System.out.println("So, here are the results:");
+		System.out.println();
 		
 		for(int i = 1; i<101; i++){
 			
